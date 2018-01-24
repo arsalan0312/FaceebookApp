@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookTestingApp", "FacebookTestingApp\FacebookTestingApp.csproj", "{FAB1C9A4-F210-4A9A-86FF-9C031DC321C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookTestingApp.Tests", "FacebookTestingApp.Tests\FacebookTestingApp.Tests.csproj", "{51CB68D8-D1E0-4265-B448-26B416756A7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB1C9A4-F210-4A9A-86FF-9C031DC321C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB1C9A4-F210-4A9A-86FF-9C031DC321C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB1C9A4-F210-4A9A-86FF-9C031DC321C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB1C9A4-F210-4A9A-86FF-9C031DC321C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51CB68D8-D1E0-4265-B448-26B416756A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51CB68D8-D1E0-4265-B448-26B416756A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51CB68D8-D1E0-4265-B448-26B416756A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51CB68D8-D1E0-4265-B448-26B416756A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76164DF5-6C1E-4835-A960-C3CAB1AC39A9}
+	EndGlobalSection
+EndGlobal

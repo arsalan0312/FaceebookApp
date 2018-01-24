@@ -1,0 +1,27 @@
+﻿@using System.Web.Mvc
+@using System.Web.Mvc.Html
+@using FacebookTestingApp.Tests.Models
+@model FacebookProfileViewModel
+@{
+    ViewBag.Title = "index";
+}
+<div class="row">
+    <div class="col-md-12">
+        <span>&nbps;</span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3">
+        <a href="@Model.LinkUrl" target="_blank">
+            <img class="img-rounded" src="@Model.ImageUrl" alt="Profile Image goes here" />
+        </a>
+    </div>
+    @using (Html.BeginForm("", "", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        <div class="col-md-5">
+            <div class="form-group">
+                @Html.LabelFor(m => m.FirstName, new { @class = "col-md-4 control-lable" })
+            </div>
+        </div>
+    }
+</div>
